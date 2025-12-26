@@ -11,8 +11,8 @@ export async function sendContactEmail(formData: {
   message: string;
 }) {
   try {
-    await resend.emails.send({
-      from: "Stashd Contact <onboarding@resend.dev>",
+    const { data, error } = await resend.emails.send({
+      from: "Stashd <onboarding@resend.dev>",
       to: "team@stashdapp.io",
       replyTo: formData.email,
       subject: `[Stashd] ${formData.subject}`,
@@ -27,6 +27,12 @@ export async function sendContactEmail(formData: {
       `,
     });
 
+    if (error) {
+      console.error("Resend error:", error);
+      return { success: false, error: error.message };
+    }
+
+    console.log("Email sent successfully:", data);
     return { success: true };
   } catch (error) {
     console.error("Failed to send email:", error);
