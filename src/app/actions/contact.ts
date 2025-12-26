@@ -12,7 +12,7 @@ export async function sendContactEmail(formData: {
 }) {
   try {
     const { data, error } = await resend.emails.send({
-      from: "Stashd <onboarding@resend.dev>",
+      from: "Stashd Contact <contact@stashdapp.io>",
       to: "team@stashdapp.io",
       replyTo: formData.email,
       subject: `[Stashd] ${formData.subject}`,
