@@ -427,9 +427,9 @@ function Footer() {
             <Link href="/terms" className="hover:text-foreground transition-colors">
               Terms of Service
             </Link>
-            <a href="mailto:support@stashdapp.io" className="hover:text-foreground transition-colors">
+            <Link href="/contact" className="hover:text-foreground transition-colors">
               Contact
-            </a>
+            </Link>
           </div>
 
           <div className="text-sm text-muted">
