@@ -18,14 +18,6 @@ export const metadata: Metadata = {
     description: "Save workout videos from TikTok, Instagram, and YouTube. Our AI analyzes exercises, sets, and reps.",
     url: "https://stashdapp.io",
     siteName: "Stashd",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Stashd - Save workouts. Get fit.",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
@@ -33,7 +25,6 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Stashd - Save workouts. Get fit.",
     description: "Save workout videos from TikTok, Instagram, and YouTube. Our AI analyzes exercises, sets, and reps.",
-    images: ["/og-image.png"],
   },
   robots: {
     index: true,
