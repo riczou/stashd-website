@@ -136,7 +136,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-2xl font-semibold mb-4">11. Termination</h2>
               <p className="text-muted leading-relaxed">
-                You may delete your account at any time through the app&apos;s Account settings. Account deletion will permanently remove all your data within 30 days.
+                You may delete your account at any time through the app&apos;s Account settings. Account deletion will permanently remove all your data immediately.
               </p>
             </section>
 
