@@ -138,6 +138,9 @@ export default function TermsOfService() {
               <p className="text-muted leading-relaxed">
                 We reserve the right to suspend or terminate your access to the App at any time, with or without cause, with or without notice. Upon termination, your right to use the App will immediately cease.
               </p>
+              <p className="text-muted leading-relaxed mt-4">
+                You may delete your account at any time through the app&apos;s Account settings. Account deletion will permanently remove all your data within 30 days.
+              </p>
             </section>
 
             <section>
